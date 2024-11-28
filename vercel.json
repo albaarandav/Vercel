@@ -11,7 +11,7 @@
     ],
     "routes": [
       {
-        "src": "/blog(.*)",
+        "src": "/(.*)",
         "dest": "python_vercel_task/wsgi.py"
       }
     ]
